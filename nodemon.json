@@ -1,0 +1,16 @@
+{
+    "ignore": [
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        "node_modules"
+    ],
+    "watch": [
+        "app",
+        "pkg",
+        "index.js",
+        "package.json",
+        "package-lock.json"
+    ],
+    "exec": "npm start",
+    "ext": "ts"
+}
